@@ -1,0 +1,38 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.imgbox{
+    display: grid;
+    place-items: center;
+}
+
+img{
+    max-width:50%;
+    max-height:40vmin; 
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    width: fit-content;
+    font-size:40px; 
+    height: fit-content;  
+    color:bisque;    
+}
+
+.yes{
+    background-color: green;
+}
+
+.no{
+    background-color:red;
+}
+
+.text{
+    visibility: hidden; 
+}
